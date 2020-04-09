@@ -1,6 +1,6 @@
 # lab-02
 
-### Pair Programmed with Haley Griffin and Olga Charnysh
+### Collaborated with Joeseph, Paul, Joe Pennock, Peyton, and Haley
 
 ##### Number and name of feature: Feature #1
 
@@ -34,3 +34,15 @@
 ##### Finish time: 1:30 pm
 
 ##### Actual time needed to complete: 1 hour
+
+# Lab 03
+
+##### Number and name of feature: ________________________________
+
+##### Estimate of time needed to complete: _____
+
+##### Start time: _____
+
+##### Finish time: _____
+
+##### Actual time needed to complete: _____
