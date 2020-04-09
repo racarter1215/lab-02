@@ -37,12 +37,23 @@
 
 # Lab 03
 
-##### Number and name of feature: ________________________________
+##### Number and name of feature: Feature #1
 
-##### Estimate of time needed to complete: _____
+##### Estimate of time needed to complete: 2 hours
 
-##### Start time: _____
+##### Start time: 9 am
 
-##### Finish time: _____
+##### Finish time: 12 pm
 
-##### Actual time needed to complete: _____
+##### Actual time needed to complete: 3
+
+
+##### Number and name of feature: 
+
+##### Estimate of time needed to complete: 
+
+##### Start time:
+
+##### Finish time: 
+
+##### Actual time needed to complete: 
