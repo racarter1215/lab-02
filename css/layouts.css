@@ -14,4 +14,32 @@ article {
     height: 400px;
     margin: 5px;
     box-sizing: border-box;
+    border: blue;
+    outline: yellow;
+}
+body {
+    background-color: rgb(42, 16, 136);
+}
+
+
+img {
+    max-width: 200px;
+}
+
+@media (min-width:768px) and (max-width:960px) {
+    
+    section {
+        border: 0.5rem outset black;
+        outline: 0.5rem solid red;
+        box-shadow: 0 0 0 2rem black;
+        border-radius: 12px;
+        font: bold 1rem sans-serif;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+        width: 500px;
+    }
+    body {
+        background-color: rgb(20, 136, 16);
+    }
 }

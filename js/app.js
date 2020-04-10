@@ -1,6 +1,7 @@
 'use strict';
 
 let imageGallery = [];
+let pageSort = 'title';
 
 function ImagePool(image_url, title, description, keyword, horns) {
     this.image_url = image_url;
