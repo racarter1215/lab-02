@@ -25,7 +25,7 @@ const DropDownMenu = () => {
     });
 };
 
-$.ajax(`data/page-1.json`).then( data => {
+$.ajax(`data/page-2.json`).then( data => {
     data.forEach((value) => {
         new ImagePool(value.image_url, value.title, value.description, value.keyword, value.horns);
     });
