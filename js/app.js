@@ -1,6 +1,7 @@
 'use strict';
 
 let imageGallery = [];
+let pageSort = 'title';
 
 function ImagePool(image_url, title, description, keyword, horns) {
     this.image_url = image_url;
@@ -12,19 +13,10 @@ function ImagePool(image_url, title, description, keyword, horns) {
 }
 
 const AddValuesToImages = (item) => {
-$('#photo-template').append(`
-    <article class="horns ${item.keyword}">
-    <h2>${item.title}</h2>
-    <img src=${item.image_url}>
-    <p>${item.description}</p>
-    <p>${item.keyword}</p>
-    <p>${item.horns}</p>
-    `);
+    let $template = $('#photo-template').html();
+    let $target = $('#main');
+    $target.append(Mustache.render($template, item));
 }
-
-$.ajax('data/page-1.json').then(data => {
-data.forEach(addValuesToImages);
-});
 
 const DropDownMenu = () => {
     imageGallery.forEach((value) => {
@@ -34,7 +26,7 @@ const DropDownMenu = () => {
     });
 };
 
-$.ajax('data/page-1.json').then( data => {
+$.ajax(`data/page-1.json`).then( data => {
     data.forEach((value) => {
         new ImagePool(value.image_url, value.title, value.description, value.keyword, value.horns);
     });
@@ -45,7 +37,7 @@ $.ajax('data/page-1.json').then( data => {
 });
 
 function clickHandler(event) {
-    $('.horns').hide();
+    $('.enact').hide();
     let id = `.${event.target.value}`;
     $(id).show();
 };

@@ -37,6 +37,8 @@
 
 # Lab 03
 
+##### Partners: Haley Griffin and Olga Charnysh. Collaboration with Matthew Stewart and Joe Lee.
+
 ##### Number and name of feature: Feature #1
 
 ##### Estimate of time needed to complete: 2 hours
