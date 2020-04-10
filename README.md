@@ -50,12 +50,27 @@
 ##### Actual time needed to complete: 3
 
 
-##### Number and name of feature: 
+##### Number and name of feature: Feature #2
 
-##### Estimate of time needed to complete: 
+##### Estimate of time needed to complete: 2 hours
 
-##### Start time:
+##### Start time: 12 pm
 
-##### Finish time: 
+##### Finish time: 8pm 
 
-##### Actual time needed to complete: 
+##### Actual time needed to complete: 8 hours lol
+
+
+##### Number and name of feature: Feature #4
+
+##### Estimate of time needed to complete: 2 hours
+
+##### Start time: 8 pm
+
+##### Finish time:  12 pm
+
+##### Actual time needed to complete: 4 hours
+
+# Lab 04
+
+##### 
